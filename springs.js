@@ -7,7 +7,7 @@ const genres= require('./routes/genres');
 
 
 springs.use(express.json());
-springs.use('/springs/api/genres',genres)
+springs.use('/springs/v1/api/genres',genres)
 //finished project springs backend genre
 
 
